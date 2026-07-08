@@ -41,7 +41,7 @@ export default function CarteVisitePage() {
       <div>
         <Link href="/#devis">
           <button className="mt-2 inline-block bg-[#f39c12] text-white px-6 py-2 min-w-50 rounded-md font-bold hover:scale-105 transition">
-            Obtenez votre devis en 2 min !
+            Demander un devis
           </button>
         </Link>
       </div>
