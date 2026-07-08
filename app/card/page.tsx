@@ -65,9 +65,9 @@ export default function CarteVisitePage() {
         </div>
 
         <div className="flex items-start gap-4">
-          <MapPin className="text-[#f39c12] mt-4" />
+          <MapPin className="text-[#f39c12]" />
           <div>
-            <p className="text-black mt-4">1580 Rue des Bruyères, 29910 Trégunc</p>
+            <p className="text-black ">1580 Rue des Bruyères, 29910 Trégunc</p>
             <a href="https://www.google.com/maps/search/1580+rue+des+bruyères,+29910+Trégunc" target="_blank" className="inline-block mt-1 px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm font-medium hover:scale-105 transition">
               Afficher sur la carte
             </a>
