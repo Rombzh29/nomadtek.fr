@@ -25,7 +25,7 @@ export default function CarteVisitePage() {
         <a href="mailto:contact@nomadtek.fr" className="bg-white p-4 rounded-full shadow hover:scale-105 transition">
           <Mail className="text-[#f39c12]" />
         </a>
-        <a href="https://www.google.com/maps/search/Kerstart,+29910+Trégunc" target="_blank" className="bg-white p-4 rounded-full shadow hover:scale-105 transition">
+        <a href="https://www.google.com/maps/search/1580+rue+des+bruyères,+29910+Trégunc" target="_blank" className="bg-white p-4 rounded-full shadow hover:scale-105 transition">
           <MapPin className="text-[#f39c12]" />
         </a>
       </div>
@@ -67,8 +67,8 @@ export default function CarteVisitePage() {
         <div className="flex items-start gap-4">
           <MapPin className="text-[#f39c12] mt-4" />
           <div>
-            <p className="text-black mt-4">Kerstrat, 29910 Trégunc</p>
-            <a href="https://www.google.com/maps/search/Kerstrat,+29910+Trégunc" target="_blank" className="inline-block mt-1 px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm font-medium hover:scale-105 transition">
+            <p className="text-black mt-4">1580 Rue des Bruyères, 29910 Trégunc</p>
+            <a href="https://www.google.com/maps/search/1580+rue+des+bruyères,+29910+Trégunc" target="_blank" className="inline-block mt-1 px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm font-medium hover:scale-105 transition">
               Afficher sur la carte
             </a>
           </div>
