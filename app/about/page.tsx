@@ -5,50 +5,49 @@ export default function AboutPage() {
       <div className="w-full bg-[#ffffff]">
         <div className="max-w-200 mx-auto px-2 py-10">
           <h2 className="text-gray-800 text-3xl font-bold mb-4">
-            🧱 À propos de LineaRenov
+            À propos de NomadTek<br></br>
+            Conception et aménagement de vans & food trucks
           </h2>
           <p className="text-gray-800 mb-6">
-            Votre partenaire local pour vos travaux du quotidien<br></br>
-            Bienvenue chez LineaRenov, société spécialisée dans le dépannage, la rénovation et les travaux d’amélioration de l’habitat.<br></br>
-            Nous intervenons rapidement et efficacement pour répondre à vos besoins, avec professionnalisme, transparence et une attention particulière portée à la satisfaction de nos clients.
+            NomadTek est un atelier spécialisé dans l&apos;aménagement sur mesure de vans et de food trucks : <br></br>
+            structure, mobilier inox, installation électrique, solaire, batteries lithium et homologation VASP.
           </p>
           <p className="text-gray-800 ext-3xl font-bold mb-1">
-           🧑‍🔧 Qui sommes-nous ?
+           Qui sommes-nous ?
           </p>
           <p className="text-gray-800 mb-6">
-            LineaRenov est portée par une solide expérience dans le secteur technique et une passion de longue date pour le dépannage, la rénovation et les travaux d’amélioration de l’habitat.<br></br>
-            Notre équipe met ses compétences au service des particuliers et des professionnels de la région pour offrir des prestations fiables, accessibles et bien exécutées.
+            NomadTek est fondé sur une expérience technique solide en mécanique, électricité, conception CAO et fabrication métallique. <br></br>
+            Nous concevons et réalisons chaque projet de A à Z, des plans à la mise en circulation homologuée, pour les particuliers comme pour les professionnels de la restauration itinérante.
           </p>
           <p className="text-gray-800 ext-3xl font-bold mb-1">
-           🛠️ Nos services
+           Ce que nous fabriquons
           </p>
           <p className="text-gray-800 mb-6">
-            Nous intervenons pour tout type de travaux, notamment :<br></br>
-            -Dépannage express en plomberie et électricité.<br></br>
-            -Travaux de rénovation de l’habitat (cloison, isolation, électricité, plomberie, domotique).<br></br>
-            -Agencement intérieur (cuisine, salle de bain, rangement).<br></br>
-            -Travaux de peinture et de finition.<br></br>
-            -Nous intervenons dans un rayon de 30 km autour de Concarneau.
+            -Aménagement complet de vans (couchage, cuisine, électricité, isolation)<br></br>
+            -Aménagement de food trucks (mobilier inox sur mesure, gaz, électricité, ventilation, plonge).<br></br>
+            -Installations électriques 12V-24V/220V, solaire, batteries AGM, lithium.<br></br>
+            -Fabrication de pièces et mobilier bois ou inox spécifiques.<br></br>
+            -Homologation VASP sur demande du client.
           </p>
           <p className="text-gray-800 ext-3xl font-bold mb-1">
-           🤝 Nos engagements
+           Nos engagements
           </p>
           <p className="text-gray-800 mb-6">
-            -Réactivité et ponctualité<br></br>
-            -Devis clairs et sans surprise<br></br>
-            -Interventions propres, soignées, assurées<br></br>
-            -Écoute, conseils et suivi personnalisé
+            -Conception personnalisée : chaque projet est unique.<br></br>
+            -Fabrication soignée et matériaux professionnels.<br></br>
+            -Véhicules conformes et homologués, pas juste esthétiques.<br></br>
+            -Suivi de projet de la conception à la livraison.
           </p>
          <p className="text-gray-800 ext-3xl font-bold mb-1">
-            📞 Contactez-nous
+            Contactez-nous
           </p>
           <p className="text-gray-800 mb-6">
-            📧 contact@LineaRenov.fr<br></br>
-            📍 Zone d’intervention : Secteur concarneau et environant
+            📧 contact@nomadtek.fr<br></br>
+            📞 06 16 83 16 18<br></br>
           </p>
 
           <Link href="/">
-            <button className="mt-3 inline-block bg-[#c49e7f] text-white px-6 py-2 rounded-md font-medium hover:scale-105 transition">
+            <button className="mt-3 inline-block bg-[#f39c12] text-white px-6 py-2 rounded-md font-medium hover:scale-105 transition">
                 Retour à l&apos;accueil
               </button>
           </Link>

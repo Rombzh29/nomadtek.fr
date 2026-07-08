@@ -7,7 +7,7 @@ export default function Header()
     <header className="bg-[#202936] shadow-md py-4">
         <div className="max-w-200 flex mx-auto items-center px-4 flex-row gap-y-4">
             <Link href="/" className="items-start">
-                <Image src="/Logo_General_Linea.png" alt="Logo LineaRenov" width={150} height={80} className="h-auto w-auto" />
+                <Image src="/Logo_Long_NomadTek_Bleu.png" alt="Logo NomadTek" width={150} height={80} className="h-auto w-auto" />
             </Link>
             <div className="mx-auto text-end flex-1">
               <Link href="#devis">

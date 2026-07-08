@@ -8,21 +8,21 @@ export default function Footer()
         <div className="max-w-250 mx-auto px-4 flex flex-col items-center gap-y-4 md:flex-row ">
             <div className="container mx-auto px-4">
                 <Link href="/" className="flex justify-center mb-6">
-                    <Image src="/Logo_General_Linea.png" alt="Logo LineaRenov" width={150} height={40} className="h-auto w-auto"/>
+                    <Image src="/Logo_Long_NomadTek_Bleu.png" alt="Logo NomadTek" width={150} height={40} className="h-auto w-auto"/>
                 </Link>
 
                 <div className="flex justify-center space-x-4 mb-6">
-                    <a href="https://www.facebook.com/profile.php?id=61577699931646" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/profile.php?id=654654654test" target="_blank" rel="noopener noreferrer">
                         <Image src="/Logo_Facebook_Blanc.webp" alt="Facebook" width={24} height={24}/>
                     </a>
-                    <a href="https://www.instagram.com/LineaRenov/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/NomadTek/" target="_blank" rel="noopener noreferrer">
                         <Image src="/Logo_Instagram_Blanc.webp" alt="Instagram" width={24} height={24} />
                     </a>
                 </div>
 
                 <div className="text-center mb-6">
-                    <a href="mailto:contact@linearenov.fr" className="hover:underline">
-                        contact@linearenov.fr
+                    <a href="mailto:contact@nomadtek.fr" className="hover:underline">
+                        contact@nomadtek.fr
                     </a>
                 </div>
             </div>
@@ -37,7 +37,7 @@ export default function Footer()
             </div>
         </div>
         <div className="text-center text-sm">
-            &copy; {new Date().getFullYear()} LineaRenov. Tous droits réservés.
+            &copy; {new Date().getFullYear()} NomadTek. Tous droits réservés.
         </div>
     </footer>
   );

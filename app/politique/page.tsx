@@ -11,13 +11,13 @@ export default function AboutPage() {
           1. Introduction
         </p>
         <p className="text-gray-800 mb-6">
-          Bienvenue sur LineaRenov. La protection de vos données personnelles est une priorité pour nous. Cette politique de confidentialité explique quelles informations nous collectons, comment nous les utilisons et quels sont vos droits.
+          Bienvenue sur NomadTek. La protection de vos données personnelles est une priorité pour nous. Cette politique de confidentialité explique quelles informations nous collectons, comment nous les utilisons et quels sont vos droits.
         </p>
         <p className="text-gray-800 ext-3xl font-bold mb-1">
           2. Données collectées
         </p>
         <p className="text-gray-800 mb-6">
-          Nous collectons les données suivantes lorsque vous utilisez le site LineaRenov: 
+          Nous collectons les données suivantes lorsque vous utilisez le site NomadTek: 
           Informations personnelles : Nom, prénom, adresse e-mail, numéro de téléphone.
           Informations professionnelles : Nom de votre entreprise, secteur d&apos;activité.
           Données de connexion : Adresse IP, navigateur, pages consultées.
@@ -51,7 +51,7 @@ export default function AboutPage() {
           Conformément au RGPD, vous disposez des droits suivants :
           Accès, rectification et suppression de vos données.
           Opposition à l&apos;utilisation de vos données.
-          Portabilité de vos données sur demande. Pour exercer vos droits, contactez-nous à contact@linearenov.fr.
+          Portabilité de vos données sur demande. Pour exercer vos droits, contactez-nous à contact@nomadtek.fr.
         </p>
         <p className="text-gray-800 ext-3xl font-bold mb-1">
           7. Conservation des données
@@ -75,10 +75,10 @@ export default function AboutPage() {
           10. Contact
         </p>
         <p className="text-gray-800 mb-10">
-          Pour toute question sur cette politique, vous pouvez nous contacter à contact@linearenov.fr
+          Pour toute question sur cette politique, vous pouvez nous contacter à contact@nomadtek.fr
         </p>
         <Link href="/">
-        <button className="mt-3 inline-block bg-[#c49e7f] text-white px-6 py-2 rounded-md font-medium hover:scale-105 transition">
+        <button className="mt-3 inline-block bg-[#f39c12] text-white px-6 py-2 rounded-md font-medium hover:scale-105 transition">
               Retour à l&apos;accueil
             </button>
         </Link>
