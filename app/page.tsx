@@ -1,10 +1,9 @@
 'use client'
 
 import Image from 'next/image';
-//import DevisFormulaire from '@/components/ui/devisformulaire'
-//import PortFolio from '@/components/ui/Portfolio'
+import ContactForm from '@/components/ContactForm';
+
 import Link from 'next/link';
-//import ChatwootWidget from '../components/ChatwootWidget'
 
 export default function Home() {
   return (
@@ -219,6 +218,8 @@ export default function Home() {
               <p className="text-gray-100 mb-8">
                 Notre approche repose sur la transparence, le respect des délais et une relation de confiance construite projet après projet.
               </p>
+                                { <ContactForm /> }
+              { /*
               <p className="text-gray-100 mb-8">
                 <strong>Discutons de votre projet.</strong>
               </p>
@@ -226,10 +227,10 @@ export default function Home() {
                 <button className="mt-3 inline-block bg-[#f39c12] text-white px-2 py-3 max-w-40 rounded-md font-bold hover:scale-105 transition">
                   Contacter-nous !
                 </button>
-              </Link>
+              </Link>*/}
             </div>
           </div>
-                  {/* <ChatwootWidget /> */}
+
         </div>       
       </main>
   );
