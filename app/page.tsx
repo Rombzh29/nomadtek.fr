@@ -218,7 +218,9 @@ export default function Home() {
               <p className="text-gray-100 mb-8">
                 Notre approche repose sur la transparence, le respect des délais et une relation de confiance construite projet après projet.
               </p>
-                                { <ContactForm /> }
+              <section id="devis">
+                <ContactForm /> 
+              </section>
               { /*
               <p className="text-gray-100 mb-8">
                 <strong>Discutons de votre projet.</strong>
