@@ -10,7 +10,7 @@ export default function Home() {
   return (
       <main className="flex flex-col items-center justify-center">
         <div className="w-full flex items-center justify-center bg-[#1F2937]">
-          <div className="relative w-full md:h-150 h-75 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/Cover.png')" }}>
+          <div className="relative w-full md:h-150 h-75 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/cover.png')" }}>
             {/* Overlay sombre optionnel */}
             <div className="absolute inset-0 bg-black/50"></div>
             {/* Texte au centre */}
@@ -33,20 +33,6 @@ export default function Home() {
           </div>
         </div>
 
-
-         <div className="w-full bg-[#202936]">
-          <div className="max-w-250 mx-auto px-2 py-10">
-            <div className="center text-center">
-              <div>
-                <h3 className="text-3xl md:text-5xl font-bold  text-gray-100">
-                  Découvrez nos dernières réalisations 
-                </h3>
-                {/* <PortFolio></PortFolio> */}
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="w-full bg-[#FFFFFF]">
           <div className="max-w-250 mx-auto px-2 py-10">
             <div className="flex flex-col md:flex-row items-center gap-2">
@@ -64,7 +50,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-1">
-                <Image src="/Image2.jpg" alt="Illustration" width={600} height={400} className="w-full h-auto object-contain rounded-md shadow-lg" />
+                <Image src="/Fab3.jpg" alt="Illustration" width={600} height={400} className="w-full h-auto object-contain rounded-md shadow-lg" />
               </div>
             </div>
           </div>
@@ -82,7 +68,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-1">
-                <Image src="/Image6.jpg" alt="Illustration" width={600} height={400} className="w-full h-auto object-contain rounded-md shadow-lg"
+                <Image src="/Food2.png" alt="Illustration" width={600} height={400} className="w-full h-auto object-contain rounded-md shadow-lg"
                 />
               </div>
               <div className="flex-1 grid grid-cols-2 gap-2 mx-auto w-full">
@@ -148,7 +134,7 @@ export default function Home() {
           <div className="max-w-250 mx-auto px-2 py-10">
             <div className="flex flex-col-reverse md:flex-row items-center mx-auto gap-2">
               <div className="flex-1">
-                <Image src="/Image3.jpg" alt="Illustration" width={600} height={400} className="w-full h-auto object-contain rounded-md shadow-lg" />
+                <Image src="/Elec1.png" alt="Illustration" width={600} height={400} className="w-full h-auto object-contain rounded-md shadow-lg" />
               </div>
               <div className="flex-1 flex flex-col justify-between h-full">
                 <div>
@@ -184,7 +170,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-1">
-                <Image src="/Image4.jpg" alt="Illustration" width={600} height={400} className="w-full h-auto object-contain rounded-md shadow-lg" />
+                <Image src="/Van1.jpg" alt="Illustration" width={600} height={400} className="w-full h-auto object-contain rounded-md shadow-lg" />
               </div>
             </div>
           </div>
@@ -194,7 +180,7 @@ export default function Home() {
           <div className="max-w-250 mx-auto px-2 py-10">
             <div className="flex flex-col-reverse md:flex-row items-center mx-auto gap-8">
               <div className="flex-1">
-                <Image src="/Image5.jpg" alt="Illustration" width={600} height={400} className="w-full h-auto object-contain rounded-md shadow-lg" />
+                <Image src="/Food1.png" alt="Illustration" width={600} height={400} className="w-full h-auto object-contain rounded-md shadow-lg" />
               </div>
               <div className="flex-1 flex flex-col justify-between h-full">
                 <div>
