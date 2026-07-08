@@ -67,13 +67,13 @@ export default function CarteVisitePage() {
         <div className="flex items-start gap-4">
           <MapPin className="text-[#f39c12] mt-4" />
           <div>
-            <p>Kerstrat, 29910 Trégunc</p>
+            <p className="text-black mt-4">Kerstrat, 29910 Trégunc</p>
             <a href="https://www.google.com/maps/search/Kerstrat,+29910+Trégunc" target="_blank" className="inline-block mt-1 px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm font-medium hover:scale-105 transition">
               Afficher sur la carte
             </a>
           </div>
         </div>
-        <h2 className="text-l font-semibold mb-2">Suivez-nous sur</h2>
+        <h2 className="text-l font-semibold text-black mb-2">Suivez-nous sur</h2>
          <div className="flex items-center gap-4">
           <Image src="/Instagram_icon.png" alt="Instagram" width={24} height={24} />
           <a href="https://www.instagram.com/nomadtek/" className="text-black hover:scale-105 transition" target="_blank">Instagram</a>
