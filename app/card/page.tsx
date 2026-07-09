@@ -76,11 +76,11 @@ export default function CarteVisitePage() {
         <h2 className="text-l font-semibold text-black mb-2">Suivez-nous sur</h2>
          <div className="flex items-center gap-4">
           <Image src="/Instagram_icon.png" alt="Instagram" width={24} height={24} />
-          <a href="https://www.instagram.com/nomadtek/" className="text-black hover:scale-105 transition" target="_blank">Instagram</a>
+          <a href="https://www.instagram.com/nomadtek_off/" className="text-black hover:scale-105 transition" target="_blank">Instagram</a>
         </div>
         <div className="flex items-center gap-4">
           <Image src="/Facebook_icon.png" alt="Instagram" width={24} height={24} />
-          <a href="https://www.facebook.com/profile.php?id=dfsfsdfsdftest" className="text-black hover:scale-105 transition" target="_blank">Facebook</a>
+          <a href="https://www.facebook.com/profile.php?id=61591926115230" className="text-black hover:scale-105 transition" target="_blank">Facebook</a>
         </div>
       </div>  
   </div>
