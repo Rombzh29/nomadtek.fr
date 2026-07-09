@@ -15,7 +15,7 @@ export default function Footer()
                     <a href="https://www.facebook.com/profile.php?id=61591926115230" target="_blank" rel="noopener noreferrer">
                         <Image src="/Logo_Facebook_Blanc.webp" alt="Facebook" width={24} height={24}/>
                     </a>
-                    <a href="https://www.instagram.com/nomadtek_off/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/nomadtek_pro/" target="_blank" rel="noopener noreferrer">
                         <Image src="/Logo_Instagram_Blanc.webp" alt="Instagram" width={24} height={24} />
                     </a>
                 </div>
